@@ -81,3 +81,101 @@ Hello World to the screen, and it is amazing */
 
 // string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 // Console.WriteLine("The length of the txt string is: " + txt.Length);
+
+// Full name
+//       string name = "John Doe";
+
+//       Location of the letter D
+//       int charPos = name.IndexOf("D");
+
+//       Get last name
+//       string lastName = name.Substring(charPos);
+
+//       Print the result
+//       Console.WriteLine(lastName);
+//       Console.WriteLine(charPos);
+
+// if (20 > 18) 
+//       {
+//         Console.WriteLine("20 is greater than 18");
+//       }   
+
+// int day = 4;
+// switch (day) 
+// {
+//   case 1:
+//     Console.WriteLine("Monday");
+//     break;
+//   case 2:
+//     Console.WriteLine("Tuesday");
+//     break;
+//   case 3:
+//     Console.WriteLine("Wednesday");
+//     break;
+//   case 4:
+//     Console.WriteLine("Thursday");
+//     break;
+//   case 5:
+//     Console.WriteLine("Friday");
+//     break;
+//   case 6:
+//     Console.WriteLine("Saturday");
+//     break;
+//   case 7:
+//     Console.WriteLine("Sunday");
+//     break;
+// }
+
+//while loop
+
+// int i = 0;
+// while (i < 5) 
+// {
+//   Console.WriteLine(i);
+//   i++;
+// }
+
+// int i = 0;
+// do 
+// {
+//   Console.WriteLine(i);
+//   i++;
+// }
+// while (i < 5);
+
+
+//for loop
+//  for (int i = 0; i <= 10; i = i + 2)
+//       {
+//         Console.WriteLine(i);
+//       } 
+
+//foreach
+
+// string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+//       foreach (string i in cars) 
+//       {
+//         Console.WriteLine(i);
+//       }   
+
+//array
+
+// string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+//       cars[0] = "Opel";
+//       Console.WriteLine(cars[0]);    
+
+//for loop
+
+// string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+//       for (int i = 0; i < cars.Length; i++) 
+//       {
+//         Console.WriteLine(cars[i]);
+//       }
+
+//for each
+
+// string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+//       foreach (string i in cars) 
+//       {
+//         Console.WriteLine(i);
+//       }
