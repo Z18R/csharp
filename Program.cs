@@ -183,43 +183,106 @@ Hello World to the screen, and it is amazing */
 // C# program to add
 // two binary strings
 
-using System;
+// using System;
 
-	// This function adds two
-	// binary strings and return
-	// result as a third string
-	static string addBinary(string a,string b)
-	{
+// 	// This function adds two
+// 	// binary strings and return
+// 	// result as a third string
+// 	static string addBinary(string a,string b)
+// 	{
 		
-		// Initialize result
-		string result = "";
+// 		// Initialize result
+// 		string result = "";
 		
-		// Initialize digit sum
-		int s = 0;		
+// 		// Initialize digit sum
+// 		int s = 0;		
 
-		// Traverse both strings starting
-		// from last characters
-		int i = a.Length - 1, j = b.Length - 1;
-		while (i >= 0 || j >= 0 || s == 1)
-		{
+// 		// Traverse both strings starting
+// 		// from last characters
+// 		int i = a.Length - 1, j = b.Length - 1;
+// 		while (i >= 0 || j >= 0 || s == 1)
+// 		{
 			
-			// Comput sum of last
-			// digits and carry
-			s += ((i >= 0)? a[i] - '0': 0);
-			s += ((j >= 0)? b[j] - '0': 0);
+// 			// Comput sum of last
+// 			// digits and carry
+// 			s += ((i >= 0)? a[i] - '0': 0);
+// 			s += ((j >= 0)? b[j] - '0': 0);
 
-			// If current digit sum is
-			// 1 or 3, add 1 to result
-			result = (char)(s % 2 + '0') + result;
+// 			// If current digit sum is
+// 			// 1 or 3, add 1 to result
+// 			result = (char)(s % 2 + '0') + result;
 
-			// Compute carry
-			s /= 2;
+// 			// Compute carry
+// 			s /= 2;
 
-			// Move to next digits
-			i--; j--;
-		}
-	return result;
-	}
+// 			// Move to next digits
+// 			i--; j--;
+// 		}
+// 	return result;
+// 	}
 	
-    
 
+// int [] arr = {1,2,3,4,2,3,4,12,24};
+// int [] arr2 = {10,12,33,42,21,32,20,12,24};
+// Array.Sort(arr);
+// Console.WriteLine(arr);
+
+
+// int[] intArray ={ 9, 2, 4, 3, 1, 5 };
+// Array.Sort(intArray);
+
+// for (int i = 0; i < intArray.Length; i++){
+// 	Console.Write(intArray[i]+ " ");
+// }
+
+
+// C# program for the above approach
+using System;
+using System.Collections.Generic;
+
+public class GFG {
+	public static int Solution(int[] arr)
+	{
+		int n = arr.Length;
+	
+		// If length of array is even
+		if (n % 2 == 0)
+		{
+			int z = n / 2;
+			int e = arr[z];
+			int q = arr[z - 1];
+
+			int ans = (e + q) / 2;
+			return ans;
+		}
+	
+		// If length if array is odd
+		else
+		{
+			int z = n / 2;
+			return arr[z];
+		}
+	}
+
+	// Driver Code
+	static public void Main (){
+		
+		// TODO Auto-generated method stub
+		int[] arr1 = { -5, 3, 6, 12, 15 };
+		int[] arr2 = { -12, -10, -6, -3, 4, 10 };
+		
+		// Merge two array into one array
+		var myList = new List<int>();
+		myList.AddRange(arr1);
+		myList.AddRange(arr2);
+		int[] arr3 = myList.ToArray();
+
+		// Sort the merged array
+		Array.Sort(arr3);
+		
+		// calling the method
+		Console.Write("Median = " + Solution(arr3));
+	}
+}
+
+// This code is contributed by Shubhamsingh10
