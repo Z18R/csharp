@@ -227,62 +227,109 @@ Hello World to the screen, and it is amazing */
 // Array.Sort(arr);
 // Console.WriteLine(arr);
 
+// // C# program for the above approach
+// using System;
+// using System.Collections.Generic;
+
+// public class GFG {
+// 	public static int Solution(int[] arr)
+// 	{
+// 		int n = arr.Length;
+	
+// 		// If length of array is even
+// 		if (n % 2 == 0)
+// 		{
+// 			int z = n / 2;
+// 			int e = arr[z];
+// 			int q = arr[z - 1];
+
+// 			int ans = (e + q) / 2;
+// 			return ans;
+// 		}
+	
+// 		// If length if array is odd
+// 		else
+// 		{
+// 			int z = n / 2;
+// 			return arr[z];
+// 		}
+// 	}
+
+// 	// Driver Code
+// 	static public void Main (){
+		
+// 		// TODO Auto-generated method stub
+// 		int[] arr1 = { -5, 3, 6, 12, 15 };
+// 		int[] arr2 = { -12, -10, -6, -3, 4, 10 };
+		
+// 		// Merge two array into one array
+// 		var myList = new List<int>();
+// 		myList.AddRange(arr1);
+// 		myList.AddRange(arr2);
+// 		int[] arr3 = myList.ToArray();
+
+// 		// Sort the merged array
+// 		Array.Sort(arr3);
+		
+// 		// calling the method
+// 		Console.Write("Median = " + Solution(arr3));
+// 	}
+// }
+
+// //1st Identify Sorted numbers and its Length
 
 // int[] intArray ={ 9, 2, 4, 3, 1, 5 };
 // Array.Sort(intArray);
+// int length = intArray.Length;
+// Console.WriteLine(length);
 
-// for (int i = 0; i < intArray.Length; i++){
-// 	Console.Write(intArray[i]+ " ");
+// // for (int i = 0; i < intArray.Length; i++){
+// // 	Console.Write(intArray[i]+ " ");
+// // }
+
+// if (length % 2 == 0 ){
+// 	int median1 = intArray[length/2];
+// 	int median2 = intArray[length/2 - 1];
+// 	int median = (median1 + median2) / 2;
+// }
+// else if{
+
 // }
 
+/*in c# given an array [8,5,2,3,4] create a pseudocode that
+will sort it to [2,3,4,5,8]*/
 
-// C# program for the above approach
-using System;
-using System.Collections.Generic;
 
-public class GFG {
-	public static int Solution(int[] arr)
-	{
-		int n = arr.Length;
-	
-		// If length of array is even
-		if (n % 2 == 0)
-		{
-			int z = n / 2;
-			int e = arr[z];
-			int q = arr[z - 1];
+// int [] arr = {8,5,2,3,4};
+// Array.Sort(arr);
 
-			int ans = (e + q) / 2;
-			return ans;
-		}
-	
-		// If length if array is odd
-		else
-		{
-			int z = n / 2;
-			return arr[z];
-		}
-	}
+// for (int i = 0; i < arr.Length; i++){
+// 	Console.Write(arr[i]+" ");
+// }
 
-	// Driver Code
-	static public void Main (){
-		
-		// TODO Auto-generated method stub
-		int[] arr1 = { -5, 3, 6, 12, 15 };
-		int[] arr2 = { -12, -10, -6, -3, 4, 10 };
-		
-		// Merge two array into one array
-		var myList = new List<int>();
-		myList.AddRange(arr1);
-		myList.AddRange(arr2);
-		int[] arr3 = myList.ToArray();
+// string Name = "Joezer";
+// string NewName = Name.Replace('J', 'F');
+// System.Console.WriteLine(NewName);
 
-		// Sort the merged array
-		Array.Sort(arr3);
-		
-		// calling the method
-		Console.Write("Median = " + Solution(arr3));
-	}
+//Find duplicate on the string 
+
+//Write a program in C/C++ that swaps two integer values using Only two varaibles
+
+// int x = 10;
+// int y = 20;
+
+// x = x-y;
+// y = y+x;
+// x = y-x;
+
+// Console.WriteLine("x:"+x);
+// Console.WriteLine("y:"+y);
+
+string [] arr = {"cake", "muffin", "coffe"};
+string [] arr2 = {"lemonade", "soda", "water"};
+string [] finalarr = {arr + arr2[1]};
+
+for(int i = 0; i < finalarr.Length; i++){
+	System.Console.WriteLine(finalarr);
 }
 
-// This code is contributed by Shubhamsingh10
