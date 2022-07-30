@@ -356,3 +356,8 @@ will sort it to [2,3,4,5,8]*/
 // }else{
 // 	System.Console.WriteLine("Rggtr");
 // }
+
+string Fname = "Hello World";
+string NewName = Fname.Replace("Hello","Jello");
+
+System.Console.WriteLine(NewName);
