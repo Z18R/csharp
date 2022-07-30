@@ -325,11 +325,34 @@ will sort it to [2,3,4,5,8]*/
 // Console.WriteLine("x:"+x);
 // Console.WriteLine("y:"+y);
 
-string [] arr = {"cake", "muffin", "coffe"};
-string [] arr2 = {"lemonade", "soda", "water"};
-string [] finalarr = {arr + arr2[1]};
+// string [] arr = {"cake", "muffin", "coffe"};
+// string [] arr2 = {"lemonade", "soda", "water"};
+// string [] finalarr = {arr + arr2[1]};
 
-for(int i = 0; i < finalarr.Length; i++){
-	System.Console.WriteLine(finalarr);
-}
+// for(int i = 0; i < finalarr.Length; i++){
+// 	System.Console.WriteLine(finalarr);
+// }
 
+/*string manipulation "Hello World" = "Jello World" */
+
+// string NameHello = "Hello World";
+// string NewName = NameHello.Replace("lo" , "bob");
+// System.Console.WriteLine(NewName);
+
+
+//make a program string to int
+
+// Console.Write("This is your input: ");
+
+// string NameHello = Console.ReadLine();
+
+// int NewName = Int32.Parse(NameHello);
+
+// if(NewName == 10){
+// 	System.Console.WriteLine("ten");
+// }else if(NewName != 12)
+// {
+// 	System.Console.WriteLine("Hmm");
+// }else{
+// 	System.Console.WriteLine("Rggtr");
+// }
