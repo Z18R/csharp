@@ -363,8 +363,14 @@ will sort it to [2,3,4,5,8]*/
 // System.Console.WriteLine(NewName);
 
 //pass the value of a variable to another variable
-int y = 10;
-int x = 20;
-x = y;
+// int y = 10;
+// int x = 20;
+// x = y;
 
-System.Console.WriteLine(y);
+// System.Console.WriteLine(y);
+
+//get the highest number in an array
+
+int[] arr = {8,5,2,3,4};
+// System.Console.WriteLine(arr);
+System.Console.WriteLine(arr.Max());
