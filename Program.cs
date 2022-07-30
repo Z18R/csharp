@@ -423,10 +423,25 @@ will sort it to [2,3,4,5,8] */
 /*given in an array [8,5,2,3,4] create a pseudocode that
 will reverse it to [8,5,4,3,2] */
 
-int[] arr = {8,5,2,3,4};
-Array.Sort(arr);
-Array.Reverse(arr);
+// int[] arr = {8,5,2,3,4};
+// Array.Sort(arr);
+// Array.Reverse(arr);
 
-for(int i = 0; i < arr.Length; i++){
-	System.Console.Write(arr[i]+ " ");
-}
+// for(int i = 0; i < arr.Length; i++){
+// 	System.Console.Write(arr[i]+ " ");
+// }
+
+ // declaring and initializing the array
+        int[] arr = new int[] {1, 9, 6, 7, 5, 9};
+  
+        // Sort array in ascending order.
+        Array.Sort(arr);
+  
+        // reverse array
+        Array.Reverse(arr);
+  
+        // print all element of array
+        foreach(int value in arr)
+        {
+            Console.Write(value + " ");
+		}
