@@ -395,3 +395,17 @@ will sort it to [2,3,4,5,8]*/
 //         printf("y: %d\n",y);
 //         printf("z: %d\n",(z++));
 // }
+
+/*Write a program in c/c#/c++ language that swaps two integer
+values using only two variables
+*/
+
+int x = 20;
+int y = 10;
+
+x = x-y;
+y = y+x;
+x = y-x;
+
+System.Console.WriteLine("x: " + x);
+System.Console.WriteLine("y: " + y);
