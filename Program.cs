@@ -371,6 +371,11 @@ will sort it to [2,3,4,5,8]*/
 
 //get the highest number in an array
 
-int[] arr = {8,5,2,3,4};
+// int[] arr = {8,5,2,3,4};
 // System.Console.WriteLine(arr);
-System.Console.WriteLine(arr.Max());
+// System.Console.WriteLine(arr.Max());
+
+//get the lowest number in an array
+
+int[] arr = {8,5,2,3,4};
+System.Console.WriteLine(arr.Min());
