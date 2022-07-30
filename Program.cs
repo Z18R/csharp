@@ -377,5 +377,21 @@ will sort it to [2,3,4,5,8]*/
 
 //get the lowest number in an array
 
-int[] arr = {8,5,2,3,4};
-System.Console.WriteLine(arr.Min());
+// int[] arr = {8,5,2,3,4};
+// System.Console.WriteLine(arr.Min());
+
+// #include<stdio.h>
+
+// void main(){
+//     int x = 10;
+//     int y = 20;
+//     int z = 30;
+//         x = ++y+z;
+/*			x= (1+20)+30 21+30 = 51
+			y =(1+20) = 21
+			z = 30
+*/
+//         printf("x: %d\n",x);
+//         printf("y: %d\n",y);
+//         printf("z: %d\n",(z++));
+// }
