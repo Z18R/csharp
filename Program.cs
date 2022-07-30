@@ -357,7 +357,14 @@ will sort it to [2,3,4,5,8]*/
 // 	System.Console.WriteLine("Rggtr");
 // }
 
-string Fname = "Hello World";
-string NewName = Fname.Replace("Hello","Jello");
+// string Fname = "Hello World";
+// string NewName = Fname.Replace("Hello","Jello");
 
-System.Console.WriteLine(NewName);
+// System.Console.WriteLine(NewName);
+
+//pass the value of a variable to another variable
+int y = 10;
+int x = 20;
+x = y;
+
+System.Console.WriteLine(y);
