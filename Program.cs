@@ -400,12 +400,22 @@ will sort it to [2,3,4,5,8]*/
 values using only two variables
 */
 
-int x = 20;
-int y = 10;
+// int x = 20;
+// int y = 10;
 
-x = x-y;
-y = y+x;
-x = y-x;
+// x = x-y;
+// y = y+x;
+// x = y-x;
 
-System.Console.WriteLine("x: " + x);
-System.Console.WriteLine("y: " + y);
+// System.Console.WriteLine("x: " + x);
+// System.Console.WriteLine("y: " + y);
+
+/*given in an array [8,5,2,3,4] create a pseudocode that
+will sort it to [2,3,4,5,8] */
+
+int[] arr = {8,5,2,3,4};
+Array.Sort(arr);
+
+for(int i = 0; i < arr.Length; i++){
+	System.Console.WriteLine(arr[i]);
+}
