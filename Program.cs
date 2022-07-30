@@ -413,9 +413,20 @@ values using only two variables
 /*given in an array [8,5,2,3,4] create a pseudocode that
 will sort it to [2,3,4,5,8] */
 
+// int[] arr = {8,5,2,3,4};
+// Array.Sort(arr);
+
+// for(int i = 0; i < arr.Length; i++){
+// 	System.Console.WriteLine(arr[i]);
+// }
+
+/*given in an array [8,5,2,3,4] create a pseudocode that
+will reverse it to [8,5,4,3,2] */
+
 int[] arr = {8,5,2,3,4};
 Array.Sort(arr);
+Array.Reverse(arr);
 
 for(int i = 0; i < arr.Length; i++){
-	System.Console.WriteLine(arr[i]);
+	System.Console.Write(arr[i]+ " ");
 }
