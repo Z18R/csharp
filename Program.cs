@@ -484,14 +484,19 @@ will reverse it to [8,5,4,3,2] */
 
 //Pass the value of a variable to another variable
 
-int x , y ;
+// int x , y ;
 
-x = 20;
-y = 10;
+// x = 20;
+// y = 10;
 
-x = x-y;
-y = y+x;
-x = y-x;
+// x = x-y;
+// y = y+x;
+// x = y-x;
 
-System.Console.WriteLine("x:" + x);
-System.Console.WriteLine("y:" + y);
+// System.Console.WriteLine("x:" + x);
+// System.Console.WriteLine("y:" + y);
+
+//get the highest number in an array
+
+int [] arr = {8,5,2,3,4};
+System.Console.WriteLine(arr.Max());
