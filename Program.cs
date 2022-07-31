@@ -482,7 +482,7 @@ will reverse it to [8,5,4,3,2] */
 
 // System.Console.WriteLine(NewName);
 
-//Pass the value of a variable to another variable
+//swaps two integer values using only two variables x , y
 
 // int x , y ;
 
@@ -498,5 +498,16 @@ will reverse it to [8,5,4,3,2] */
 
 //get the highest number in an array
 
-int [] arr = {8,5,2,3,4};
-System.Console.WriteLine(arr.Max());
+// int [] arr = {8,5,2,3,4};
+// System.Console.WriteLine(arr.Max());
+
+//Pass the value of a variable to another variable
+
+int x, y;
+
+x = 10;
+y = 20;
+
+y = x;
+
+System.Console.WriteLine(y);
