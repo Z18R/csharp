@@ -514,9 +514,14 @@ will reverse it to [8,5,4,3,2] */
 
 // given an array [8,5,2,3,4] create an array that will sort it
 
-int [] arr = {8,5,2,3,4};
-Array.Sort(arr);
+// int [] arr = {8,5,2,3,4};
+// Array.Sort(arr);
 
-for(int i = 0; i < arr.Length; i++){
-    System.Console.Write(arr[i] + " ");
-}
+// for(int i = 0; i < arr.Length; i++){
+//     System.Console.Write(arr[i] + " ");
+// }
+
+//get the lowest number in an array [8,5,2,3,4]
+
+int [] arr = {8,5,2,3,4};
+System.Console.WriteLine(arr.Min());
