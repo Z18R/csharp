@@ -503,11 +503,20 @@ will reverse it to [8,5,4,3,2] */
 
 //Pass the value of a variable to another variable
 
-int x, y;
+// int x, y;
 
-x = 10;
-y = 20;
+// x = 10;
+// y = 20;
 
-y = x;
+// y = x;
 
-System.Console.WriteLine(y);
+// System.Console.WriteLine(y);
+
+// given an array [8,5,2,3,4] create an array that will sort it
+
+int [] arr = {8,5,2,3,4};
+Array.Sort(arr);
+
+for(int i = 0; i < arr.Length; i++){
+    System.Console.Write(arr[i] + " ");
+}
