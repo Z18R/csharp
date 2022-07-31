@@ -432,16 +432,52 @@ will reverse it to [8,5,4,3,2] */
 // }
 
  // declaring and initializing the array
-        int[] arr = new int[] {1, 9, 6, 7, 5, 9};
+        // int[] arr = new int[] {1, 9, 6, 7, 5, 9};
   
-        // Sort array in ascending order.
-        Array.Sort(arr);
+        // // Sort array in ascending order.
+        // Array.Sort(arr);
   
-        // reverse array
-        Array.Reverse(arr);
+        // // reverse array
+        // Array.Reverse(arr);
   
-        // print all element of array
-        foreach(int value in arr)
-        {
-            Console.Write(value + " ");
-		}
+        // // print all element of array
+        // foreach(int value in arr)
+        // {
+        //     Console.Write(value + " ");
+		// }
+
+//get the median of an array
+
+// int[] arr = {1,9,6,7,5,9};
+// Array.Sort(arr);
+// int lengthArr = arr.Length;
+// int median;
+
+
+// if (lengthArr % 2 == 0){
+// 	median = arr[(lengthArr/2 ) -1 ] + arr[(lengthArr/2 - 3)/ 2] / 2;
+// }
+// else{
+// 	median = arr[(lengthArr/2)];
+// }
+// System.Console.WriteLine(median);
+
+
+//create a program that output even or odd
+// System.Console.Write("Enter a number: ");
+// int myNum = Int32.Parse(Console.ReadLine());
+
+// if(myNum % 2 == 0){
+//     System.Console.WriteLine("Even");
+// }
+// else{
+//     System.Console.WriteLine("Odd");
+// }
+
+
+//string manipulation Hello World to Jello World
+
+string Fname = "Hello World!";
+string NewName = Fname.Replace("Hello","Jello");
+
+System.Console.WriteLine(NewName);
