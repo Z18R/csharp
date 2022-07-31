@@ -477,7 +477,21 @@ will reverse it to [8,5,4,3,2] */
 
 //string manipulation Hello World to Jello World
 
-string Fname = "Hello World!";
-string NewName = Fname.Replace("Hello","Jello");
+// string Fname = "Hello World!";
+// string NewName = Fname.Replace("Hello","Jello");
 
-System.Console.WriteLine(NewName);
+// System.Console.WriteLine(NewName);
+
+//Pass the value of a variable to another variable
+
+int x , y ;
+
+x = 20;
+y = 10;
+
+x = x-y;
+y = y+x;
+x = y-x;
+
+System.Console.WriteLine("x:" + x);
+System.Console.WriteLine("y:" + y);
